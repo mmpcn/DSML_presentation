@@ -1,0 +1,89 @@
+
+% Background image (outside the frame)
+\usebackgroundtemplate{
+    \includegraphics[width=\paperwidth,height=\paperheight]
+    {figures/exoplanets.png}
+}
+i
+
+
+
+
+
+
+
+
+% Title slide
+{
+    \usebackgroundtemplate{
+        \includegraphics[width=\paperwidth,height=\paperheight]
+        {figures/exoplanets.png}
+    }
+
+    \begin{frame}[plain]
+        \vspace{3cm}
+
+        \begin{center}
+            {\Huge\bfseries\color{white}
+            Exoplanets Through Data}
+
+            \vspace{0.5cm}
+
+            {\large\color{white}
+            Exploring the Diversity of Planetary Systems}
+        \end{center}
+    \end{frame}
+}
+
+
+
+
+
+
+
+
+
+
+
+% Title slide
+{
+    \usebackgroundtemplate{
+        \includegraphics[width=\paperwidth,height=\paperheight]
+        {figures/exoplanets.png}
+    }
+
+    \begin{frame}[plain]
+
+        \vspace{3cm}
+
+        \begin{center}
+            {\Huge\bfseries\color{white}
+            Exoplanets Through Data}
+
+            \vspace{0.5cm}
+
+            {\large\color{white}
+            Exploring the Diversity of Planetary Systems}
+        \end{center}
+
+    \end{frame}
+}
+% Title slide
+\begin{frame}[plain]
+
+    \vspace{3cm}
+
+    \begin{center}
+        {\Huge\bfseries\color{white}
+        Exoplanets Through Data}
+
+        \vspace{0.5cm}
+
+        {\large\color{white}
+        Exploring the Diversity of Planetary Systems}
+    \end{center}
+
+\end{frame}
+
+% Reset background (outside the frame)
+\usebackgroundtemplate{}
